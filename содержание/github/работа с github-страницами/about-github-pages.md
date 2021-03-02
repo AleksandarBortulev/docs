@@ -1,34 +1,6 @@
 ---
-title: About GitHub Pages
-intro: 'You can use {% data variables.product.prodname_pages %} to host a website about yourself, your organization, or your project directly from a {% data variables.product.product_name %} repository.'
-redirect_from:
-  - /articles/what-are-github-pages/
-  - /articles/what-is-github-pages/
-  - /articles/user-organization-and-project-pages/
-  - /articles/using-a-static-site-generator-other-than-jekyll/
-  - /articles/mime-types-on-github-pages/
-  - /articles/should-i-rename-usernamegithubcom-repositories-to-usernamegithubio/
-  - /articles/about-github-pages
-product: '{% data reusables.gated-features.pages %}'
-versions:
-  free-pro-team: '*'
-  enterprise-server: '*'
-  github-ae: '*'
----
-
-### About {% data variables.product.prodname_pages %}
-
-{% data variables.product.prodname_pages %} is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on {% data variables.product.product_name %}, optionally runs the files through a build process, and publishes a website. You can see examples of {% data variables.product.prodname_pages %} sites in the [{% data variables.product.prodname_pages %} examples collection](https://github.com/collections/github-pages-examples).
-
 {% if currentVersion == "free-pro-team@latest" %}
-You can host your site on {% data variables.product.prodname_dotcom %}'s `github.io` domain or your own custom domain. For more information, see "[Using a custom domain with {% data variables.product.prodname_pages %}](/articles/using-a-custom-domain-with-github-pages)."
-{% endif %}
-
-{% if currentVersion == "free-pro-team@latest" %}
-{% data reusables.pages.about-private-publishing %} For more information, see "[Changing the visibility of your {% data variables.product.prodname_pages %} site](/github/working-with-github-pages/changing-the-visibility-of-your-github-pages-site)."
-{% endif %}
-
-To get started, see "[Creating a {% data variables.product.prodname_pages %} site](/articles/creating-a-github-pages-site)."
+You can host your site on {% data variables.product.prodname_dotcom %}'s `github.io` domain or your own custom domain. For more information, see "[Using a custom domain with {% data variables.product.prodname_pages %}](/articles/using-a-custom-domain-with-git
 
 {% if currentVersion == "free-pro-team@latest" or currentVersion ver_gt "enterprise-server@3.0" %}
 Organization owners can disable the publication of {% data variables.product.prodname_pages %} sites from the organization's repositories. For more information, see "[Managing the publication of {% data variables.product.prodname_pages %} sites for your organization](/github/setting-up-and-managing-organizations-and-teams/managing-the-publication-of-github-pages-sites-for-your-organization)."
@@ -75,8 +47,7 @@ For more information, see "[Enabling subdomain isolation](/enterprise/{{ current
 
 ### Publishing sources for {% data variables.product.prodname_pages %} sites
 
-The publishing source for your {% data variables.product.prodname_pages %} site is the branch and folder where the source files for your site are stored.
-
+The publishing source for your {% data variables.product.prodname_pages %} site is the branch and folder where the source files for your site are store
 {% data reusables.pages.private_pages_are_public_warning %}
 
 {% if currentVersion == "free-pro-team@latest" or currentVersion ver_gt "enterprise-server@2.22" or currentVersion == "github-ae@latest" %}
